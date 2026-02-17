@@ -2,11 +2,14 @@
 name: ralph
 description: "Convert PRDs to prd.json format for the Ralph autonomous agent system. Use when you have an existing PRD and need to convert it to Ralph's JSON format. Triggers on: convert this prd, turn this into ralph format, create prd.json from this, ralph json."
 user-invocable: true
+tools: ["amp", "claude", "opencode"]
 ---
 
 # Ralph PRD Converter
 
 Converts existing PRDs to the prd.json format that Ralph uses for autonomous execution.
+
+Works with: Amp, Claude Code, and OpenCode.
 
 ---
 
